@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+
+<body>
+    <div id="viewDiv">
+        <form id="myForm">
+            <label for="fName">First name</label>
+            <input type="text" id="fName" placeholder="Type anything">
+            <br>
+            <br>
+            <label for="lName">Last name</label>
+            <input type="text" id="LName">
+            <br><br>
+            <div id="gender1">
+                <input id="r1" type="radio" name="gender" value="Male"> Male
+                <br>
+                <input id="r2" type="radio" name="gender" value="Female"> Female
+            </div><br>
+            <select id="state">
+                <option value="select">select</option>
+                <option value="ny">NY</option>
+                <option value="nj">NJ</option>
+                <option value="dc">Dc</option>
+                <option value="kc">KC</option>
+            </select><br><br>
+            <form action="name" method="get">
+                <input id="box" type="checkbox" name="vehicle" value="Bike"> I agree
+            </form><br>
+            <input type="button" id="submit" value="Submit">
+        </form>
+    </div>
+    <div id="viewDiv">
+        <span id="display"></span><br>
+        <input type="button" id="edit" value="Edit" disabled>
+    </div>
+    <script type="text/javascript" src="./js/assign1.js"></script>
+</body>
+
+</html>
